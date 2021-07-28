@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tic Tac Toe</title>
+        <link rel='stylesheet' href='tictactoe.css'>
+    </head>
+    <body>
+        <div class='wraper'></div>
+        <div class='formDiv form-hide'>
+                <form name='nameinput' class='nameinput'>
+                    <div class='p1'>
+                        <label for='playerx'><b>Player 'X' name</b></label>
+                        <input type='text' name='playerx' required>
+                    </div>
+                    <div class='p2'>
+                        <label for='playero'><b>Player 'O' name</b></label>
+                        <input type='text' name='playero' required>
+                    </div>
+                    <div class='st-btn'>
+                        <button type='button' class='btn start-btn'>Start</button>
+                    </div>
+                </form>
+        </div>
+        <div class='finished finished-hide'>
+            <div class='pdiv'>
+                <p class='winner'></p>
+            </div>
+            <div class='rbtn'>
+                <button type='button' class='btn restart-btn'>Play again?</button>
+            </div>
+        </div>
+    </body>
+    <script src='tictactoe.js'></script>
+</html>
